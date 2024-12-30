@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Simple Article Listing | devChallenges.io</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    
+      
+      
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
+
+      .encabezado {
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 36px;
+        max-width: 800px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        margin: 30px 0px 30px 0px;
+
+      }
+      .separador {
+        width: 200px;
+        margin: 20px 0px 20px 0px;
+      }
+      .div1, .div2, .div3 {
+        
+        max-width:800px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+        margin: 50px 0px 50px 0px;
+        gap: 100px;
+      }
+      .subdiv {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        gap: 25px;
+      }
+      .parrafo1 {
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+      }
+      .parrafo2 {
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 14px;
+
+        color: #4D5562;
+      }
+      .imagen-div {
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <h1 class="encabezado"> We release interesting articles about technology</h1>
+    <img class="separador" src="/resources/Seperator.svg" alt="">
+    <main>
+      <div class="div1"> 
+        <img class="imagen-div" src="/resources/photo_1.png" alt="">
+        <div class="subdiv">
+          <p class="parrafo1"> Unlocking the Power of Cloud Computing: A Guide to Scalable Solutions
+  
+          </p>
+          <p class="parrafo2">
+           November 12, 2024
+          </p>
+        </div>
+       
+      </div>
+  
+      <div class="div2"> 
+        <img class="imagen-div" src="/resources/photo_3.png" alt="">
+        <div class="subdiv">
+          <p class="parrafo1"> 
+            The Future of AI: How Machine Learning is Revolutionizing Industries
+          </p>
+          <p class="parrafo2">
+           November 12, 2024
+          </p>
+        </div>
+       
+      </div>
+      <div class="div3"> 
+        <img class="imagen-div" src="/resources/photo_2.png" alt="">
+        <div class="subdiv">
+          <p class="parrafo1"> 
+            The Impact of 5G on Business: How Faster Networks are Transforming the Way We Work
+          </p>
+          <p class="parrafo2">
+           November 12, 2024
+          </p>
+        </div>
+       
+      </div>
+    </main>
+     
+    <div class="author-info">
+      Coded by <a href="#">Your Name Here</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
